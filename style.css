@@ -1,0 +1,49 @@
+form{
+    border: solid 2px #eaeaea;
+    border-radius: 30px;
+    padding: 15px;
+    max-width: 15em;
+}
+
+input{
+    border-style: none;
+    outline: none;
+}
+
+::placeholder{
+    color: #207986;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+button[type=submit]{
+    border-style: none;
+    background-color: white;
+    color: #186e7b;
+}
+
+button[type=submit]:hover{
+    transition: .2s ease-in-out;
+    background-color: #186e7b;
+    color: white;
+}
+
+button[type=reset]{
+    border: none;
+    color: white;
+    background-color: #c8c8c8;
+    border-radius: 10px;
+    font-size: .5em;
+    padding: 2px 5px 3px 5px;
+    margin-right: 25px;
+    content: "✖";
+    border-radius: 10px;
+    font-size: .5em;
+    padding: 2px 5px 3px 5px;
+    margin-right: 25px;
+}
+
+/* did not finish. would need to figure out how to have reset button appear after placeholder has been replaced. need to extend on hover to fill it's portion of input field*/
+
+
